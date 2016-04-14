@@ -1,13 +1,16 @@
 # XSSProxy (Alpha version)
 
+  Cross the intranet via XSS.
+
 ## Install
 `npm install -g xssproxy`
+
 ## Usage
 Server:
 ```command
-node index.js
-node index.js -p 8000 -sp 8001
-node index.js --port 8000 --sio-port 8001
+xssproxy
+xssproxy -p 8000 -sp 8001
+xssproxy --port 8000 --sio-port 8001
 ```
 
 client:
